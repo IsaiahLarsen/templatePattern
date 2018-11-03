@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="323.0">DinersCard</node>
+    <node x="265.0" y="323.0">MasterCard</node>
+    <node x="265.0" y="0.0">TemplatePattern</node>
+    <node x="530.0" y="323.0">VisaCard</node>
+    <node x="0.0" y="553.0">Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="VisaCard" target="TemplatePattern">
+      <point x="0.0" y="-92.5" />
+      <point x="652.5" y="298.0" />
+      <point x="469.1666666666667" y="298.0" />
+      <point x="81.66666666666669" y="136.5" />
+    </edge>
+    <edge source="DinersCard" target="TemplatePattern">
+      <point x="0.0" y="-92.5" />
+      <point x="122.5" y="298.0" />
+      <point x="305.8333333333333" y="298.0" />
+      <point x="-81.66666666666669" y="136.5" />
+    </edge>
+    <edge source="MasterCard" target="TemplatePattern">
+      <point x="0.0" y="-92.5" />
+      <point x="0.0" y="136.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="337.0" y="235.5" />
+  <SelectedNodes>
+    <node>Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
